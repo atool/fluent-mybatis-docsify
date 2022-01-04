@@ -3,4 +3,4 @@
 
 QQ交流群: 540950332
 
-<img alt="qq" src="images/qq3.jpeg" style="width: 120px;height: 180px;"/>
+<img alt="qq" src="images/qq3.jpeg" style="width: 288px;height: 452px;"/>
