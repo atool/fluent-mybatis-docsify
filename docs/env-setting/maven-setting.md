@@ -1,3 +1,4 @@
+# maven依赖配置
 
 ```
 <properties>
@@ -24,22 +25,24 @@
 其中fluent-mybatis是fluent-mybatis运行时的正主，需要设置为compile级别
 而fluent-mybatis-processor是编译时，根据Entity文件生成一系列辅助类的处理器，依赖级别为provided就可以。
 
-# fluent-mybatis依赖项
+## fluent-mybatis依赖项
+
 ![fluent-mybatis依赖项](images/fluent-mybatis-dependecies.png)
 
-## 必须项(FluentMybatis核心功能需要)
+### 必须项(FluentMybatis核心功能需要)
 - com.github.atool:fluent-mybatis-annotation:1.9.4
 - com.github.atool:db-feature:1.3.5
 - org.mybatis:mybatis:3.5.7
 - org.mybatis:mybatis-spring:2.0.6
 
-## 可选项(FormService功能参数校验需要)
+### 可选项(FormService功能参数校验需要)
 - org.hibernate.validator:hibernate-validator:6.0.22.Final
 - javax.validation:validation-api:1.3.2
 - javax.annotation:javax.annotation-api:1.3.2
 - org.glassfish:javax.el:3.0.0
 
-# fluent-mybatis-processor依赖项
+## fluent-mybatis-processor依赖项
+
 ![processor依赖项](images/processor-dependecies.png)
 
 - com.github.atool:fluent-mybatis
