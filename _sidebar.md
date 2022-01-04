@@ -5,6 +5,7 @@
 * 使用篇
   * 环境配置
     * [Maven环境配置](docs/env-setting/maven-setting.md)
+    * [Gradle环境配置](docs/env-setting/Gradle-setting.md)
   * 代码生成
     
 * 查询
