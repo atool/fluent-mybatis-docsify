@@ -56,7 +56,7 @@ public class EntityGeneratorDemo {
 ```
 
 # 执行测试, 生成的Entity类
-![生成代码](https://images.gitee.com/uploads/images/2021/0608/194444_f22bdb18_1767937.png "生成代码.png")
+![生成代码](images/program-generated-code.png "生成代码.png")
 其中, XyzDao 和 XyzDaoImpl是空类,再次运行代码不会覆盖生成
 Entity是Fluent Mybatis运行的正主, 不要手工改动, 重新运行代码生成会进行覆盖, 保持数据库变更的一致。
 
@@ -122,7 +122,7 @@ public class HelloWorldEntity extends RichEntity {
 
 # 生成代码后编译
 在Entity代码生成后，执行IDE编译，或者maven(gradle)编译，会在target目录下生成下面代码列表
-![代码结构](https://images.gitee.com/uploads/images/2021/1017/164726_d8610a74_1767937.png "代码结构.png")
+![代码结构](images/annotation-generated-code.png "代码结构.png")
 
 大家重点关注 XyzMapper, XyzQuery, XyzUpdate 这3个类即可
 Mapper类是Mybatis的接口类，需要加入到mybatis的扫描路径中
@@ -134,17 +134,17 @@ Mapper类是Mybatis的接口类，需要加入到mybatis的扫描路径中
 XyzQuery和XyzUpdate是应用中用来拼装查询语句和更新语句的工具类。
 
 Idea的AnnotationProcessor开关
-![AnnotationProcessor](../images/learn-abc/AnnotationProcessor.png "AnnotationProcessor.png")
+![AnnotationProcessor](images/AnnotationProcessor.png "AnnotationProcessor.png")
 
 正常情况下， IDE会自动把target/generated-sources/annotations 添加到源码路径下，如果碰到找不到类的情形
 
 点击maven视图的刷新按钮，会自动添加工程源码路径
-![maven视图](../images/learn-abc/maven-viewer-refresh.png "maven视图.png")
+![maven视图](images/maven-viewer-refresh.png "maven视图.png")
 
 gradle的同学同理，刷新gradle视图
 
 如果再不行，手工大法
-![IDE设置](../images/learn-abc/idea-classpath-setting.png "IDE设置.png")
+![IDE设置](images/idea-classpath-setting.png "IDE设置.png")
 
 ## maven和gradle
 maven和gradle打包会自动把target/generated-sources/annotations下文件编译到classes下。

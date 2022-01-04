@@ -1,4 +1,4 @@
-<img alt="logo" src="images/mybatis.png" style="width: 180px;height: 100px;"/>
+<img alt="logo" src="images/mybatis-icon.png" style="width: 180px;height: 100px;"/>
 
 # Fluent-Mybatis
 
