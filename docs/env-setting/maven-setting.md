@@ -30,27 +30,27 @@
 ![fluent-mybatis依赖项](images/fluent-mybatis-dependecies.png)
 
 ### 必须项(FluentMybatis核心功能需要)
-- com.github.atool:fluent-mybatis-annotation:1.9.4
-- com.github.atool:db-feature:1.3.5
-- org.mybatis:mybatis:3.5.7
-- org.mybatis:mybatis-spring:2.0.6
+- com.github.atool: fluent-mybatis-annotation: 1.9.4
+- com.github.atool: db-feature: 1.3.5
+- org.mybatis: mybatis: 3.5.7
+- org.mybatis: mybatis-spring: 2.0.6
 
 ### 可选项(FormService功能参数校验需要)
-- org.hibernate.validator:hibernate-validator:6.0.22.Final
-- javax.validation:validation-api:1.3.2
-- javax.annotation:javax.annotation-api:1.3.2
-- org.glassfish:javax.el:3.0.0
+- org.hibernate.validator: hibernate-validator: 6.0.22.Final
+- javax.validation: validation-api: 1.3.2
+- javax.annotation: javax.annotation-api: 1.3.2
+- org.glassfish :javax.el: 3.0.0
 
 ## fluent-mybatis-processor依赖项
 
 ![processor依赖项](images/processor-dependecies.png)
 
-- com.github.atool:fluent-mybatis
-- com.github.atool:db-feature:1.3.5
-- com.github.atool:generator:1.3.14
-- com.squareup:javapoet:1.13.0
-- org.mybatis.generator:mybatis-generator-core:1.4.0
-- javax.annotation:javax.annotation-api:1.3.2
+- com.github.atool: fluent-mybatis
+- com.github.atool: db-feature: 1.3.5
+- com.github.atool: generator: 1.3.14
+- com.squareup: javapoet: 1.13.0
+- org.mybatis.generator: mybatis-generator-core: 1.4.0
+- javax.annotation: javax.annotation-api: 1.3.2
 
 # 工具默认应用会配置好的环境
 - spring和spring boot系列 （如果非spring系统，参考mybatis非spring环境的运行机制）
