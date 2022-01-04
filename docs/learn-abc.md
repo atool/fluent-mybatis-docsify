@@ -146,6 +146,13 @@ gradle的同学同理，刷新gradle视图
 如果再不行，手工大法
 ![IDE设置](images/idea-classpath-setting.png "IDE设置.png")
 
-## maven和gradle
+# maven和gradle
+
+```bash
+mvn clean install
+
+gradle build
+```
+
 maven和gradle打包会自动把target/generated-sources/annotations下文件编译到classes下。
 源码也会自动打包到 sources.jar里面
